@@ -1,21 +1,21 @@
 // Simulated weather data (hardcoded for demonstration purposes)
 const weatherData = {
-    "Europe": {
+    "Tenkasi": {
         temperature: 22,
         humidity: 60,
         description: "Sunny",
     },
-    "Phoenix": {
+    "Kerala": {
         temperature: 16,
         humidity: 75,
         description: "Cloudy",
     },
-    "Cairo": {
+    "Bangalore": {
         temperature: 18,
         humidity: 80,
         description: "Rainy",
     },
-    "Rome": {
+    "Chennai": {
         temperature: 20,
         humidity: 65,
         description: "Clear",
