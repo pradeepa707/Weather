@@ -1,21 +1,21 @@
 // Simulated weather data (hardcoded for demonstration purposes)
 const weatherData = {
-    "New York": {
+    "Europe": {
         temperature: 22,
         humidity: 60,
         description: "Sunny",
     },
-    "London": {
+    "Phoenix": {
         temperature: 16,
         humidity: 75,
         description: "Cloudy",
     },
-    "Tokyo": {
+    "Cairo": {
         temperature: 18,
         humidity: 80,
         description: "Rainy",
     },
-    "Paris": {
+    "Rome": {
         temperature: 20,
         humidity: 65,
         description: "Clear",
