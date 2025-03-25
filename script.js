@@ -1,26 +1,26 @@
 // Simulated weather data (hardcoded for demonstration purposes)
 const weatherData = {
-    "Tenkasi": {
+    "New York": {
         temperature: 22,
         humidity: 60,
         description: "Sunny",
     },
-    "Tirunelveli": {
+    "London": {
         temperature: 16,
         humidity: 75,
         description: "Cloudy",
     },
-    "Kadayanallur": {
+    "Tokyo": {
         temperature: 18,
         humidity: 80,
         description: "Rainy",
     },
-    "Chennai": {
+    "Paris": {
         temperature: 20,
         humidity: 65,
         description: "Clear",
     },
-    "Madurai": {
+    "Sydney": {
         temperature: 25,
         humidity: 50,
         description: "Windy",
@@ -49,10 +49,10 @@ function displayWeather(data, city) {
     document.getElementById('error-message').classList.add('hidden');
     document.getElementById('weather-info').classList.remove('hidden');
 
-    document.getElementById('city-name').textContent = ${city};
-    document.getElementById('temperature').textContent = Temperature: ${data.temperature}°C;
-    document.getElementById('humidity').textContent = Humidity: ${data.humidity}%;
-    document.getElementById('weather-description').textContent = Weather: ${data.description};
+    document.getElementById('city-name').textContent = `${city}`;
+    document.getElementById('temperature').textContent = `Temperature: ${data.temperature}°C`;
+    document.getElementById('humidity').textContent = `Humidity: ${data.humidity}%`;
+    document.getElementById('weather-description').textContent = `Weather: ${data.description}`;
 }
 
 // Function to show error messages
